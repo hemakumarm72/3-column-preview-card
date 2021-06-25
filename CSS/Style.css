@@ -18,25 +18,42 @@
   --Bright-orange: hsl(31, 77%, 52%);
   --Dark-cyan: hsl(184, 100%, 22%);
   --Very-dark-cyan: hsl(179, 100%, 13%);
-  --Transparent-white: hsla(0, 0%, 100%, 0.75); /*(paragraphs) */
+  --Transparent-white: #f2f2f2; /*(paragraphs) */
   --Very-light-gray: hsl(0, 0%, 95%); /*(background, headings, buttons)*/
 }
 
 body {
+  background-color: var(--Transparent-white);
   font-size: 16px; /* default font size is 15px but i here 16px which reason also rem add  */
+}
+
+.container {
+  position: relative;
+
   display: flex;
   margin: 0 auto;
-  max-width: 1440px;
-  padding: 8.875rem 17.625rem 6.375rem 17.625rem;
+  align-items: center;
+  max-width: 964px;
+  padding: 19.44444444444444vh 0 0 0;
 }
 
-.card1,
-.card2,
+.card {
+  position: relative;
+  width: 117.1875vw;
+  height: 31.125vw;
+}
+
+.card1 {
+  background-color: var(--Bright-orange);
+}
+
+.card2 {
+  background-color: var(--Dark-cyan);
+}
+
 .card3 {
-  width: 21rem;
-  height: 32.125rem;
+  background-color: var(--Very-dark-cyan);
 }
-
 .card1 {
   border-radius: 10px 0 0 10px;
 }
@@ -46,7 +63,6 @@ body {
 .card1 {
   background-color: var(--Bright-orange);
 }
-
 .card2 {
   background-color: var(--Dark-cyan);
 }
