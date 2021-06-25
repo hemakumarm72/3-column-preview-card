@@ -26,18 +26,15 @@ body {
   font-size: 16px; /* default font size is 15px but i here 16px which reason also rem add  */
   display: flex;
   margin: 0 auto;
-  padding: 12.0625rem 18.125rem 9.125rem 18.125rem;
-}
-.container {
-  background-color: red;
-  /* 8.125rem */
+  max-width: 1440px;
+  padding: 11.625rem 18.125rem 8.75rem 18.125rem;
 }
 
 .card1,
 .card2,
 .card3 {
-  width: 24.375rem;
-  height: 35.1875rem;
+  width: 21rem;
+  height: 34.125rem;
 }
 
 .card1 {
