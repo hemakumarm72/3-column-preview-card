@@ -34,13 +34,13 @@ body {
   margin: 0 auto;
   align-items: center;
   max-width: 964px;
-  padding: 19.44444444444444vh 0 0 0;
+  padding: 17.44444444444444vh 0 0 0;
 }
 
 .card {
   position: relative;
   width: 117.1875vw;
-  height: 31.125vw;
+  height: 34.125vw;
 }
 
 .card1 {
@@ -69,4 +69,21 @@ body {
 
 .card3 {
   background-color: var(--Very-dark-cyan);
+}
+
+/*card-inner  */
+
+.cardinner {
+  padding: 2.875vw 2.75vw;
+  border: 3px red solid;
+}
+
+.cardinner h1 {
+  font-family: "Big Shoulders Display", "cursive";
+  font-size: 2vw;
+  font-style: normal;
+  font-weight: 900;
+  padding-top: 2.4375vw;
+
+  color: var(--Very-light-gray);
 }
