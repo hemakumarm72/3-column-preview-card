@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+
+* {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+:root {
+  --Bright-orange: hsl(31, 77%, 52%);
+  --Dark-cyan: hsl(184, 100%, 22%);
+  --Very-dark-cyan: hsl(179, 100%, 13%);
+  --Transparent-white: hsla(0, 0%, 100%, 0.75); /*(paragraphs) */
+  --Very-light-gray: hsl(0, 0%, 95%); /*(background, headings, buttons)*/
+}
+
+body {
+  font-size: 16px; /* default font size is 15px but i here 16px which reason also rem add  */
+}
+.container {
+  margin: 0 auto;
+  max-width: 1440px;
+}
