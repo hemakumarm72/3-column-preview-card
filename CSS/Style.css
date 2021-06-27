@@ -23,7 +23,7 @@
 }
 
 body {
-  background-color: white;
+  background-color: var(--Transparent-white);
   font-size: 16px; /* default font size is 15px but i here 16px which reason also rem add  */
 }
 
@@ -95,14 +95,15 @@ body {
   color: var(--Very-light-gray);
 }
 
-.cardinner p {
+.paragraph {
   font-weight: 400;
-
+  color: hsla(0, 0%, 100%, 0.75);
   font-size: 1vw;
   font-family: "Lexend Deca", sans-serif;
   color: var(--Transparent-white);
   line-height: 1.5875vw;
   padding-top: 2rem;
+  display: block;
 }
 
 .cardinner button {
