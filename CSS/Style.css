@@ -23,7 +23,7 @@
 }
 
 body {
-  background-color: var(--Transparent-white);
+  background-color: white;
   font-size: 16px; /* default font size is 15px but i here 16px which reason also rem add  */
 }
 
@@ -41,18 +41,26 @@ body {
   position: relative;
   width: 117.1875vw;
   height: 34.125vw;
+  transition: transform 0.1999s;
+}
+
+.card:hover {
+  transform: scale(1.033); /*transform card zoomout*/
 }
 
 .card1 {
   background-color: var(--Bright-orange);
+  box-shadow: 4px 0 8px 2px rgba(0, 0, 0, 0.2);
 }
 
 .card2 {
   background-color: var(--Dark-cyan);
+  box-shadow: 4px 0 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .card3 {
   background-color: var(--Very-dark-cyan);
+  box-shadow: 4px 2px 4px 0 rgba(0, 0, 0, 0.2);
 }
 .card1 {
   border-radius: 10px 0 0 10px;
@@ -74,16 +82,50 @@ body {
 /*card-inner  */
 
 .cardinner {
-  padding: 2.875vw 2.75vw;
-  border: 3px red solid;
+  padding: 2.979vw 2.75vw;
 }
 
 .cardinner h1 {
   font-family: "Big Shoulders Display", "cursive";
-  font-size: 2vw;
+  font-size: 2.5625vw;
   font-style: normal;
   font-weight: 900;
   padding-top: 2.4375vw;
 
   color: var(--Very-light-gray);
+}
+
+.cardinner p {
+  font-weight: 400;
+
+  font-size: 0.9vw;
+  font-family: "Lexend Deca", sans-serif;
+  color: var(--Transparent-white);
+  line-height: 1.5875vw;
+  padding-top: 2rem;
+}
+
+.cardinner button {
+  background-color: var(--Transparent-white);
+  border: 2px var(--Transparent-white) solid;
+  border-radius: 50px;
+  padding: 1.0625vw 1.6875vw;
+  font-size: 1vw;
+  margin-top: 5.925vw;
+}
+.btn_1 {
+  color: var(--Bright-orange);
+}
+
+.btn_2 {
+  color: var(--Dark-cyan);
+}
+
+.btn_3 {
+  color: var(--Very-dark-cyan);
+}
+.cardinner button:hover {
+  color: var(--Transparent-white);
+  background-color: transparent;
+  border: 2px var(--Transparent-white) solid;
 }
